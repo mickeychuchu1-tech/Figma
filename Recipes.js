@@ -13,7 +13,7 @@ const Fetchdata=async()=>{
         const div=document.createElement("div")
          div.onclick=()=>{
             const a=document.createElement("a")
-            a.href=`C:/Users/ADMIN/Desktop/Figma/details.html?id=${item.idMeal}`
+            a.href=`https://figma-two-omega.vercel.app/details.html?id=${item.idMeal}`
             a.click()
         }
         div.style.width="300px"
